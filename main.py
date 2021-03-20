@@ -12,7 +12,7 @@ import datetime
 root = Tk()
 root.geometry('500x300')
 root.resizable(0,0)
-root.config(bg = 'ghost white')
+root.config(bg = '#0059b3')
 root.title('Text to Speech')
 
 
@@ -40,10 +40,10 @@ def tts():
     x = datetime.datetime.now()
     message = entry_field.get()
     speech = gTTS(text = message)
-    name = x.strftime("audio"+"%b-%d"+".mp3")
+    name = x.strftime("audio-"+"%b-%d-%H-%M-%S"+".mp3")
     speech.save(name)
     playsound(name)
-    os.remove(name)
+    # os.remove(name)
 
 def exit():
     root.destroy()

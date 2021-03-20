@@ -17,12 +17,12 @@ root.title('Text to Speech')
 
 
 ##heading
-Label(root, text = 'TEXT TO SPEECH' , font='arial 20 bold' , bg ='white smoke').pack()
+Label(root, text = 'TEXT TO SPEECH' , font='arial 18 bold' , bg ='white smoke').pack()
 
 
 
 #label
-Label(root, text ='Enter Text', font ='arial 20 bold' , bg ='white smoke').place(x=20,y=60)
+Label(root, text ='Enter Text', font ='arial 17 bold' , bg ='white smoke').place(x=170,y=60)
 
 
 ##text variable
@@ -30,8 +30,8 @@ Msg = StringVar()
 
 
 #Entry
-entry_field = Entry(root,textvariable =Msg, width = 75)
-entry_field.place(x=20 , y=100)
+entry_field = Entry(root,textvariable =Msg,width=75)
+entry_field.place(x=20,y=120)
 
 
 ###################define function##############################

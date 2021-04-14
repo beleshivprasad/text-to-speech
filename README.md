@@ -6,3 +6,5 @@ gTTS (Google Text-to-Speech) is a Python library, which is a very easy library t
 The playsound module is used to play audio files. With this module, we can play a sound file with a single line of code.
 
 At the end this app will convert text to sound i.e. speech
+
+Edited with the help of test branch.

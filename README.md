@@ -7,4 +7,4 @@ The playsound module is used to play audio files. With this module, we can play 
 
 At the end this app will convert text to sound i.e. speech
 
-Edited with the help of test branch
+Edited with the help of test branch.
